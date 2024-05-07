@@ -2,14 +2,14 @@
 
 import java.util.Scanner;
 
-public class Desafio4 {
+public class PrimoOuNao {
 
 	public static void main(String[] args) {
 
 		int contadorDeDivisores = 0;
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("\nDigite um n�mero para verificar se � primo:");
+		System.out.println("\nDigite um número para verificar se é primo:");
 		int numero = scanner.nextInt();
 
 		for (int i = 2; i < numero; i++) {
@@ -19,9 +19,9 @@ public class Desafio4 {
 		}
 
 		if (contadorDeDivisores == 0) {
-			System.out.println("\nO n�mero " + numero + " � primo.");
+			System.out.println("\nO número " + numero + " é primo.");
 		} else {
-			System.out.println("\nO n�mero " + numero + " n�o � primo.");
+			System.out.println("\nO número " + numero + " não é primo.");
 		}
 
 		scanner.close();
